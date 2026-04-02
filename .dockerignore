@@ -1,0 +1,10 @@
+.git
+.idea
+.venv
+venv
+__pycache__
+*.pyc
+.env
+.grafana
+.prometheus
+.influxdb2

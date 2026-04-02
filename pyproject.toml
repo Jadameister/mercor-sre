@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kraken-kafka-bridge"
+version = "0.1.0"
+description = "Receive Kraken WebSocket market data and publish it to Kafka or Redpanda"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "confluent-kafka==2.11.1",
+  "influxdb-client==1.49.0",
+  "python-dotenv==1.1.1",
+  "websockets==15.0.1",
+]
+
+[project.scripts]
+kraken-kafka-bridge = "kraken_kafka_bridge.main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
