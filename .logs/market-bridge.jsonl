@@ -14247,3 +14247,349 @@
 {"@timestamp":"2026-04-07T09:59:23+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57403 key=unknown"}
 {"@timestamp":"2026-04-07T09:59:24+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
 {"@timestamp":"2026-04-07T09:59:24+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57404 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:24+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T09:59:24.734529Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T09:59:24+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57405 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:25+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:25+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25961 key=BTC/USD"}
+{"@timestamp":"2026-04-07T09:59:26+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:26+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57406 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:27+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:27+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57407 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:27+0000","level":"DEBUG","logger":"websockets.client","message":"> PING eb 6e 29 c5 [binary, 4 bytes]"}
+{"@timestamp":"2026-04-07T09:59:27+0000","level":"DEBUG","logger":"websockets.client","message":"% sent keepalive ping"}
+{"@timestamp":"2026-04-07T09:59:27+0000","level":"DEBUG","logger":"websockets.client","message":"< PONG eb 6e 29 c5 [binary, 4 bytes]"}
+{"@timestamp":"2026-04-07T09:59:27+0000","level":"DEBUG","logger":"websockets.client","message":"% received keepalive pong"}
+{"@timestamp":"2026-04-07T09:59:28+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:28+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57408 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:29+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:29+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57409 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:30+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T09:59:30.023200Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T09:59:30+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57410 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:30+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:30+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25962 key=ETH/USD"}
+{"@timestamp":"2026-04-07T09:59:30+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T09:59:30.495444Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T09:59:30+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57411 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:31+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:31+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25963 key=BTC/USD"}
+{"@timestamp":"2026-04-07T09:59:32+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:32+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57412 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:33+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:33+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57413 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:34+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:34+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57414 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:35+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:35+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57415 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:36+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:36+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57416 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:36+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T09:59:36.694681Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T09:59:36+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57417 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:37+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T09:59:37.051519Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T09:59:37+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25964 key=BTC/USD"}
+{"@timestamp":"2026-04-07T09:59:37+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:37+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25965 key=BTC/USD"}
+{"@timestamp":"2026-04-07T09:59:38+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:38+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57418 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:39+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:39+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57419 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:39+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T09:59:39.826596Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T09:59:39+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57420 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:40+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:40+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25966 key=BTC/USD"}
+{"@timestamp":"2026-04-07T09:59:41+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T09:59:41.048723Z\"}]}' [307 bytes]"}
+{"@timestamp":"2026-04-07T09:59:41+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57421 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:41+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:41+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57422 key=XRP/USD"}
+{"@timestamp":"2026-04-07T09:59:42+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:42+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57423 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:43+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:43+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57424 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:44+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:44+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57425 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:44+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T09:59:44.844435Z\"}]}' [307 bytes]"}
+{"@timestamp":"2026-04-07T09:59:44+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57426 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:44+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T09:59:44.941055Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T09:59:44+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57427 key=XRP/USD"}
+{"@timestamp":"2026-04-07T09:59:45+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:45+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25967 key=ETH/USD"}
+{"@timestamp":"2026-04-07T09:59:46+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:46+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57428 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:47+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:47+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57429 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:47+0000","level":"DEBUG","logger":"websockets.client","message":"> PING d1 c0 e2 83 [binary, 4 bytes]"}
+{"@timestamp":"2026-04-07T09:59:47+0000","level":"DEBUG","logger":"websockets.client","message":"% sent keepalive ping"}
+{"@timestamp":"2026-04-07T09:59:47+0000","level":"DEBUG","logger":"websockets.client","message":"< PONG d1 c0 e2 83 [binary, 4 bytes]"}
+{"@timestamp":"2026-04-07T09:59:47+0000","level":"DEBUG","logger":"websockets.client","message":"% received keepalive pong"}
+{"@timestamp":"2026-04-07T09:59:48+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:48+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57430 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:48+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T09:59:48.371288Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T09:59:48+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57431 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:49+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:49+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25968 key=BTC/USD"}
+{"@timestamp":"2026-04-07T09:59:50+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:50+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57432 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:51+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:51+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57433 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:52+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:52+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57434 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:52+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T09:59:52.741276Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T09:59:52+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57435 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:53+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T09:59:53.011209Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T09:59:53+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25969 key=ETH/USD"}
+{"@timestamp":"2026-04-07T09:59:53+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:53+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25970 key=ETH/USD"}
+{"@timestamp":"2026-04-07T09:59:54+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:54+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57436 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:55+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:55+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57437 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:56+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:56+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57438 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:57+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:57+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57439 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:58+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:58+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57440 key=unknown"}
+{"@timestamp":"2026-04-07T09:59:59+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T09:59:59+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57441 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:00.047809Z\"}]}' [296 bytes]"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57442 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:00.086960Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25971 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:00.138290Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25972 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:00.187220Z\"}]}' [306 bytes]"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25973 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:00.233570Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57443 key=XRP/USD"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:00.246087Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25974 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:00.285079Z\"}]}' [296 bytes]"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25975 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25976 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:00.395525Z\"}]}' [296 bytes]"}
+{"@timestamp":"2026-04-07T10:00:00+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57444 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:01+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:01.034556Z\"}]}' [306 bytes]"}
+{"@timestamp":"2026-04-07T10:00:01+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25977 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:00:01+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:01+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57445 key=XRP/USD"}
+{"@timestamp":"2026-04-07T10:00:02+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:02+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57446 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:03+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:03+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57447 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:04+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:04+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57448 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:05+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:05.049327Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:05+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57449 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:05+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:05.065777Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T10:00:05+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25978 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:05+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:05.250471Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:05+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25979 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:00:05+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:05+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25980 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:05+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:05.371041Z\"}]}' [306 bytes]"}
+{"@timestamp":"2026-04-07T10:00:05+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57450 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:06+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:06.045432Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:06+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57451 key=XRP/USD"}
+{"@timestamp":"2026-04-07T10:00:06+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:06+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25981 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:06+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:06.475975Z\"}]}' [306 bytes]"}
+{"@timestamp":"2026-04-07T10:00:06+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57452 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:06+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:06.647236Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:06+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57453 key=XRP/USD"}
+{"@timestamp":"2026-04-07T10:00:07+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:07+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25982 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:07+0000","level":"DEBUG","logger":"websockets.client","message":"> PING 2a 69 8a 99 [binary, 4 bytes]"}
+{"@timestamp":"2026-04-07T10:00:07+0000","level":"DEBUG","logger":"websockets.client","message":"% sent keepalive ping"}
+{"@timestamp":"2026-04-07T10:00:07+0000","level":"DEBUG","logger":"websockets.client","message":"< PONG 2a 69 8a 99 [binary, 4 bytes]"}
+{"@timestamp":"2026-04-07T10:00:07+0000","level":"DEBUG","logger":"websockets.client","message":"% received keepalive pong"}
+{"@timestamp":"2026-04-07T10:00:08+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:08+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:08.340534Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:08+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57454 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:08+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:08.521384Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T10:00:08+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57455 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:08+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25983 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:09+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:08.941327Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:09+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25984 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:00:09+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:09.041462Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:09+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25985 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:09+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:09+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25986 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:09+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:09.558000Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:09+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57456 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:10+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:10+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25987 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:11+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:11+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57457 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:12+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:12.043331Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T10:00:12+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57458 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:12+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:12+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25988 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:00:13+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:13+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57459 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:14+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:14+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57460 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:15+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:15+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57461 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:16+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:16.100717Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:16+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57462 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:16+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:16+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25989 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:17+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:17+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57463 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:17+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:17.425718Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:17+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57464 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:18+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:18+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25990 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:19+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:19.034183Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:19+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57465 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:19+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:19+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25991 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:20+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:20+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57466 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:21+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:21+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57467 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:22+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:22+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57468 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:22+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:22.684214Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:22+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57469 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:23+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:23+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25992 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:24+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:24+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57470 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:25+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:25+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57471 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:26+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:26.153974Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T10:00:26+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57472 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:26+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:26+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25993 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:00:27+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:27.280741Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:27+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57473 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:27+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:27+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:27.801604Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:27+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25994 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:27+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57474 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:27+0000","level":"DEBUG","logger":"websockets.client","message":"> PING 2b f6 b1 2c [binary, 4 bytes]"}
+{"@timestamp":"2026-04-07T10:00:27+0000","level":"DEBUG","logger":"websockets.client","message":"% sent keepalive ping"}
+{"@timestamp":"2026-04-07T10:00:27+0000","level":"DEBUG","logger":"websockets.client","message":"< PONG 2b f6 b1 2c [binary, 4 bytes]"}
+{"@timestamp":"2026-04-07T10:00:27+0000","level":"DEBUG","logger":"websockets.client","message":"% received keepalive pong"}
+{"@timestamp":"2026-04-07T10:00:28+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:28+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25995 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:29+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:29.015669Z\"}]}' [296 bytes]"}
+{"@timestamp":"2026-04-07T10:00:29+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57475 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:29+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:29+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25996 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:00:30+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:30+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57476 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:31+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:31.032329Z\"}]}' [306 bytes]"}
+{"@timestamp":"2026-04-07T10:00:31+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57477 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:31+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:31+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57478 key=XRP/USD"}
+{"@timestamp":"2026-04-07T10:00:32+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:32+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57479 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:33+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:33+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57480 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:34+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:34+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57481 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:35+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:35+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57482 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:36+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:36+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57483 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:37+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:37+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57484 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:38+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:38.050772Z\"}]}' [306 bytes]"}
+{"@timestamp":"2026-04-07T10:00:38+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57485 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:38+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:38+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57486 key=XRP/USD"}
+{"@timestamp":"2026-04-07T10:00:39+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:39.018748Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:39+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:39.023600Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:39+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57487 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:39+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:39+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25997 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:39+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25998 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:40+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:39.964970Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T10:00:40+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57488 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:40+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:40+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=25999 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:00:40+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:40.557201Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:40+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57489 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:41+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:41+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26000 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:42+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:42+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57490 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:42+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:42.677949Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:42+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57491 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:43+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:43+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26001 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:43+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:43.749790Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:43+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57492 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:44+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:44+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26002 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:44+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:44.943755Z\"}]}' [306 bytes]"}
+{"@timestamp":"2026-04-07T10:00:44+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57493 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:45+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:45+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57494 key=XRP/USD"}
+{"@timestamp":"2026-04-07T10:00:46+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:46+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57495 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:47+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:47+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57496 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:47+0000","level":"DEBUG","logger":"websockets.client","message":"> PING '[O\\x14Z' [text, 4 bytes]"}
+{"@timestamp":"2026-04-07T10:00:47+0000","level":"DEBUG","logger":"websockets.client","message":"% sent keepalive ping"}
+{"@timestamp":"2026-04-07T10:00:48+0000","level":"DEBUG","logger":"websockets.client","message":"< PONG '[O\\x14Z' [text, 4 bytes]"}
+{"@timestamp":"2026-04-07T10:00:48+0000","level":"DEBUG","logger":"websockets.client","message":"% received keepalive pong"}
+{"@timestamp":"2026-04-07T10:00:48+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:48+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57497 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:48+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:48.416309Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T10:00:48+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57498 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:49+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:49+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26003 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:00:49+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:49.417423Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:49+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57499 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:50+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:50+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26004 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:51+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:51+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57500 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:52+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:52+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57501 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:53+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:53+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57502 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:54+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:54.042696Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T10:00:54+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57503 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:54+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:54+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26005 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:00:55+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:55+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57504 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:56+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:56+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57505 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:57+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:57.043858Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T10:00:57+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:57.049062Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:57+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57506 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:57+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:57+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26006 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:00:57+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26007 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:00:58+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:58+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57507 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:59+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:00:59.072489Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:00:59+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57508 key=unknown"}
+{"@timestamp":"2026-04-07T10:00:59+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:00:59+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26008 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:01:00+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:01:00.153289Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:01:00+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57509 key=unknown"}
+{"@timestamp":"2026-04-07T10:01:00+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:01:00.211203Z\"}]}' [297 bytes]"}
+{"@timestamp":"2026-04-07T10:01:00+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26009 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:01:00+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:01:00+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26010 key=ETH/USD"}
+{"@timestamp":"2026-04-07T10:01:01+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:01:01+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57510 key=unknown"}
+{"@timestamp":"2026-04-07T10:01:02+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:01:02.100521Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:01:02+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57511 key=unknown"}
+{"@timestamp":"2026-04-07T10:01:02+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:01:02+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26011 key=BTC/USD"}
+{"@timestamp":"2026-04-07T10:01:03+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:01:03+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57512 key=unknown"}
+{"@timestamp":"2026-04-07T10:01:04+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:01:04+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57513 key=unknown"}
+{"@timestamp":"2026-04-07T10:01:05+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:01:05+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57514 key=unknown"}
+{"@timestamp":"2026-04-07T10:01:06+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"ticker\",\"type\":\"update\",\"data\":[{\"s...07T10:01:06.104133Z\"}]}' [295 bytes]"}
+{"@timestamp":"2026-04-07T10:01:06+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=1 offset=57515 key=unknown"}
+{"@timestamp":"2026-04-07T10:01:06+0000","level":"DEBUG","logger":"websockets.client","message":"< TEXT '{\"channel\":\"heartbeat\"}' [23 bytes]"}
+{"@timestamp":"2026-04-07T10:01:06+0000","level":"DEBUG","logger":"kraken_kafka_bridge.kafka_producer","message":"Kafka delivered topic=kraken-market-data partition=0 offset=26012 key=BTC/USD"}
