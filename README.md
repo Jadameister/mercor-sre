@@ -259,6 +259,23 @@ Note: on Docker Desktop, `node-exporter` and `cadvisor` report on the Linux VM b
 
 ## All-in-one Docker image
 
+The repository also includes a single-container stack under [all-in-one/README.md](/Users/jadsalfiti/PycharmProjects/testing/mercor-sre/all-in-one/README.md).
+
+This image bundles:
+
+- Grafana
+- Prometheus
+- InfluxDB
+- Loki
+- Elasticsearch
+- Kafka and ZooKeeper
+- kafka-ui
+- Promtail and Filebeat
+- the Python `market-bridge`
+- synthetic data generators for Glances, Elasticsearch exporter metrics, and Kafka exporter metrics
+
+Use the all-in-one image when you want dashboards to be pre-populated with historical and live synthetic data immediately after startup.
+
 If you want a single `docker run` command instead of Docker Compose, build and run the all-in-one image. Every service from the compose stack is bundled into one container and managed by supervisord.
 
 ### Build
