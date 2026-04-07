@@ -12,5 +12,6 @@ log/
 *.log
 .loki
 .logs
+.logs/*
 market-bridge.jsonl
 
