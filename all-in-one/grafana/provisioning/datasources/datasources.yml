@@ -1,0 +1,54 @@
+apiVersion: 1
+
+datasources:
+  - name: Prometheus
+    uid: prometheus
+    type: prometheus
+    access: proxy
+    url: http://localhost:9090
+    isDefault: true
+    editable: true
+
+  - name: InfluxDB
+    uid: influxdb
+    type: influxdb
+    access: proxy
+    url: http://localhost:8086
+    editable: true
+    jsonData:
+      version: Flux
+      organization: test-org
+      defaultBucket: marketdata
+    secureJsonData:
+      token: marketdata-token
+
+  - name: glances
+    uid: glances
+    type: influxdb
+    access: proxy
+    url: http://localhost:8086
+    editable: true
+    jsonData:
+      version: Flux
+      organization: test-org
+      defaultBucket: glances
+    secureJsonData:
+      token: marketdata-token
+
+  - name: Loki
+    uid: loki
+    type: loki
+    access: proxy
+    url: http://localhost:3100
+    editable: true
+
+  - name: Elasticsearch
+    uid: elasticsearch
+    type: elasticsearch
+    access: proxy
+    url: http://localhost:9200
+    editable: true
+    jsonData:
+      index: "*market-bridge-logs*"
+      timeField: "@timestamp"
+      logMessageField: message

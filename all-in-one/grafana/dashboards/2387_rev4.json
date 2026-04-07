@@ -85,7 +85,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -192,7 +192,7 @@
       "type": "stat"
     },
     {
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -425,7 +425,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -533,7 +533,7 @@
       "type": "stat"
     },
     {
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -758,7 +758,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -969,7 +969,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -1048,7 +1048,7 @@
       "targets": [
         {
           "alias": "In",
-          "column": "enp0s25.rx",
+          "column": "eth0.rx",
           "dsType": "influxdb",
           "function": "mean",
           "groupBy": [
@@ -1143,7 +1143,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1330,7 +1330,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -1409,7 +1409,7 @@
       "targets": [
         {
           "alias": "Read",
-          "column": "sda2.read_bytes",
+          "column": "sda.read_bytes",
           "dsType": "influxdb",
           "function": "mean",
           "groupBy": [
@@ -1437,7 +1437,7 @@
             [
               {
                 "params": [
-                  "sda2.read_bytes"
+                  "sda.read_bytes"
                 ],
                 "type": "field"
               },
@@ -1452,7 +1452,7 @@
         },
         {
           "alias": "Write",
-          "column": "sda2.write_bytes",
+          "column": "sda.write_bytes",
           "dsType": "influxdb",
           "function": "mean",
           "groupBy": [
@@ -1480,7 +1480,7 @@
             [
               {
                 "params": [
-                  "sda2.write_bytes"
+                  "sda.write_bytes"
                 ],
                 "type": "field"
               },
@@ -1501,7 +1501,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "description": "",
       "fieldConfig": {
         "defaults": {
@@ -1724,7 +1724,7 @@
     },
     {
       "cacheTimeout": null,
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -1868,7 +1868,7 @@
         "mode": "opacity"
       },
       "dataFormat": "timeseries",
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "gridPos": {
         "h": 6,
         "w": 12,
@@ -1974,7 +1974,7 @@
         "mode": "opacity"
       },
       "dataFormat": "timeseries",
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "gridPos": {
         "h": 6,
         "w": 12,
@@ -2082,7 +2082,7 @@
       "type": "row"
     },
     {
-      "datasource": "${DS_GLANCES}",
+      "datasource": "glances",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -2319,8 +2319,12 @@
     "list": [
       {
         "allValue": null,
-        "current": {},
-        "datasource": "${DS_GLANCES}",
+        "current": {
+          "selected": true,
+          "text": "eth0",
+          "value": "eth0"
+        },
+        "datasource": "glances",
         "definition": "import \"influxdata/influxdb/v1\"\nv1.tagValues(\n    bucket: v.bucket,\n    tag: \"hostname\",\n    predicate: (r) => true,\n    start: -1d\n)",
         "description": null,
         "error": null,
@@ -2342,8 +2346,12 @@
       },
       {
         "allValue": null,
-        "current": {},
-        "datasource": "${DS_GLANCES}",
+        "current": {
+          "selected": true,
+          "text": "sda",
+          "value": "sda"
+        },
+        "datasource": "glances",
         "definition": "import \"influxdata/influxdb/v1\"\nv1.tagValues(\n    bucket: v.bucket,\n    tag: \"name\",\n    predicate: (r) => true,\n    start: -1d\n)",
         "description": null,
         "error": null,
@@ -2365,8 +2373,12 @@
       },
       {
         "allValue": null,
-        "current": {},
-        "datasource": "${DS_GLANCES}",
+        "current": {
+          "selected": true,
+          "text": "eth0",
+          "value": "eth0"
+        },
+        "datasource": "glances",
         "definition": "import \"influxdata/influxdb/v1\"\nv1.tagValues(\n    bucket: v.bucket,\n    tag: \"interface_name\",\n    predicate: (r) => true,\n    start: -1d\n)",
         "description": null,
         "error": null,
@@ -2388,8 +2400,12 @@
       },
       {
         "allValue": null,
-        "current": {},
-        "datasource": "${DS_GLANCES}",
+        "current": {
+          "selected": true,
+          "text": "sda",
+          "value": "sda"
+        },
+        "datasource": "glances",
         "definition": "import \"influxdata/influxdb/v1\"\nv1.tagValues(\n    bucket: v.bucket,\n    tag: \"disk_name\",\n    predicate: (r) => true,\n    start: -1d\n)",
         "description": null,
         "error": null,

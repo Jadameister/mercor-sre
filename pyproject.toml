@@ -7,7 +7,7 @@ name = "kraken-kafka-bridge"
 version = "0.1.0"
 description = "Receive Kraken WebSocket market data and publish it to Kafka or Redpanda"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.10"
 dependencies = [
   "confluent-kafka==2.11.1",
   "influxdb-client==1.49.0",

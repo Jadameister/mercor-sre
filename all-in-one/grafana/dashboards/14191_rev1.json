@@ -6274,6 +6274,11 @@
   "templating": {
     "list": [
       {
+        "current": {
+          "selected": true,
+          "text": "prometheus",
+          "value": "prometheus"
+        },
         "error": null,
         "hide": 0,
         "includeAll": false,
@@ -6290,6 +6295,11 @@
       },
       {
         "allValue": null,
+        "current": {
+          "selected": true,
+          "text": "synthetic-elasticsearch-exporter",
+          "value": "synthetic-elasticsearch-exporter"
+        },
         "datasource": "$datasource",
         "definition": "label_values(elasticsearch_cluster_health_status, job)",
         "error": null,
@@ -6312,6 +6322,11 @@
       },
       {
         "allValue": null,
+        "current": {
+          "selected": true,
+          "text": "synthetic-es-main",
+          "value": "synthetic-es-main"
+        },
         "datasource": "$datasource",
         "definition": "label_values(elasticsearch_indices_docs{job=\"$job\"},cluster)",
         "error": null,
@@ -6334,6 +6349,15 @@
       },
       {
         "allValue": null,
+        "current": {
+          "selected": true,
+          "text": [
+            "All"
+          ],
+          "value": [
+            "$__all"
+          ]
+        },
         "datasource": "$datasource",
         "definition": "label_values(elasticsearch_indices_docs{job=\"$job\", cluster=\"$cluster\", name!=\"\"},name)",
         "error": null,
@@ -6355,12 +6379,17 @@
         "useTags": false
       },
       {
-        "allValue": null,
+        "allValue": ".*",
+        "current": {
+          "selected": true,
+          "text": "All",
+          "value": ".*"
+        },
         "datasource": "$datasource",
         "definition": "label_values(elasticsearch_indices_docs{job=\"$job\",job=\"$job\", cluster=\"$cluster\", name!=\"\"},instance)",
         "error": null,
         "hide": 0,
-        "includeAll": false,
+        "includeAll": true,
         "label": "",
         "multi": false,
         "name": "instance",
@@ -6379,7 +6408,7 @@
     ]
   },
   "time": {
-    "from": "now-1h",
+    "from": "now-7d",
     "to": "now"
   },
   "timepicker": {
@@ -6408,7 +6437,7 @@
     ]
   },
   "timezone": "browser",
-  "title": "Elasticsearch Exporter Quickstart and Dashboard",
+  "title": "Synthetic Elasticsearch Exporter 7D",
   "uid": "4yyL6dBMk",
   "version": 14
 }

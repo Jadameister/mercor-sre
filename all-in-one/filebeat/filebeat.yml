@@ -17,7 +17,7 @@ processors:
 
 output.elasticsearch:
   hosts:
-    - http://elasticsearch:9200
+    - http://localhost:9200
   index: market-bridge-logs-%{+yyyy.MM.dd}
 
 setup.ilm.enabled: false

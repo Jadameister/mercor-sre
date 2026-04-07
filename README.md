@@ -257,6 +257,65 @@ When the bridge runs in Docker Compose it also writes structured JSON logs to `.
 
 Note: on Docker Desktop, `node-exporter` and `cadvisor` report on the Linux VM backing Docker rather than native macOS host metrics.
 
+## All-in-one Docker image
+
+If you want a single `docker run` command instead of Docker Compose, build and run the all-in-one image. Every service from the compose stack is bundled into one container and managed by supervisord.
+
+### Build
+
+```bash
+docker build -f all-in-one/Dockerfile -t mercor-sre-all-in-one .
+```
+
+### Run
+
+```bash
+docker run -d --name mercor-sre \
+  --sysctl vm.max_map_count=262144 \
+  -p 3000:3000 \
+  -p 9090:9090 \
+  -p 8086:8086 \
+  -p 3100:3100 \
+  -p 9200:9200 \
+  -p 19092:19092 \
+  -p 8088:8088 \
+  -p 9308:9308 \
+  mercor-sre-all-in-one
+```
+
+The `--sysctl vm.max_map_count=262144` flag is required by Elasticsearch 8.x and must be set at container start.
+
+Port map:
+
+| Port | Service |
+|---|---|
+| 3000 | Grafana (`admin` / `admin12345`) |
+| 9090 | Prometheus |
+| 8086 | InfluxDB |
+| 3100 | Loki |
+| 9200 | Elasticsearch |
+| 19092 | Kafka (external clients) |
+| 8088 | kafka-ui |
+| 9308 | kafka-exporter |
+
+### Useful commands
+
+```bash
+# Watch all services start up
+docker logs -f mercor-sre
+
+# Check which services are running or failed
+docker exec mercor-sre supervisorctl status
+
+# Restart a specific service
+docker exec mercor-sre supervisorctl restart market-bridge
+
+# Stop everything
+docker stop mercor-sre
+```
+
+---
+
 ## Running
 
 The project supports two practical run modes:

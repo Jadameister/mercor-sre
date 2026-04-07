@@ -1944,7 +1944,11 @@
       },
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "selected": true,
+          "text": "kafka",
+          "value": "kafka"
+        },
         "datasource": "$datasource",
         "hide": 0,
         "includeAll": false,
@@ -1964,7 +1968,11 @@
       },
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "selected": true,
+          "text": "kraken-market-data",
+          "value": "kraken-market-data"
+        },
         "datasource": "$datasource",
         "hide": 0,
         "includeAll": false,
@@ -1984,7 +1992,11 @@
       },
       {
         "allValue": "",
-        "current": {},
+        "current": {
+          "selected": true,
+          "text": "0",
+          "value": "0"
+        },
         "datasource": "$datasource",
         "hide": 0,
         "includeAll": false,
@@ -2004,7 +2016,11 @@
       },
       {
         "allValue": null,
-        "current": {},
+        "current": {
+          "selected": true,
+          "text": "analytics",
+          "value": "analytics"
+        },
         "datasource": "$datasource",
         "hide": 0,
         "includeAll": false,
