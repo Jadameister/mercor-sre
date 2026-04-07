@@ -57,11 +57,14 @@ services:
       KRAKEN_SYMBOLS: BTC/USD,ETH/USD,XRP/USD
       KRAKEN_BOOK_DEPTH: "10"
       LOG_LEVEL: DEBUG
+      LOG_JSON_PATH: /var/log/market-bridge/market-bridge.jsonl
       INFLUXDB_ENABLED: "true"
       INFLUXDB_URL: http://influxdb:8086
       INFLUXDB_TOKEN: marketdata-token
       INFLUXDB_ORG: test-org
       INFLUXDB_BUCKET: marketdata
+    volumes:
+      - ./.logs:/var/log/market-bridge
     depends_on:
       - kafka
       - influxdb
@@ -105,6 +108,65 @@ services:
     depends_on:
       - prometheus
       - influxdb
+      - loki
+      - elasticsearch
+    networks:
+      - test-net
+
+  loki:
+    image: grafana/loki:3.1.1
+    container_name: loki
+    command:
+      - -config.file=/etc/loki/config.yml
+    ports:
+      - "3100:3100"
+    volumes:
+      - ./docker/loki/config.yml:/etc/loki/config.yml:ro
+      - ./.loki:/loki
+    networks:
+      - test-net
+
+  promtail:
+    image: grafana/promtail:3.1.1
+    container_name: promtail
+    command:
+      - -config.file=/etc/promtail/config.yml
+    volumes:
+      - ./docker/promtail/config.yml:/etc/promtail/config.yml:ro
+      - ./.logs:/var/log/market-bridge:ro
+    depends_on:
+      - loki
+      - market-bridge
+    networks:
+      - test-net
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.15.3
+    container_name: elasticsearch
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: -Xms512m -Xmx512m
+    ports:
+      - "9200:9200"
+    volumes:
+      - ./.elasticsearch:/usr/share/elasticsearch/data
+    networks:
+      - test-net
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:8.15.3
+    container_name: filebeat
+    user: root
+    command:
+      - --strict.perms=false
+      - -e
+    volumes:
+      - ./docker/filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      - ./.logs:/var/log/market-bridge:ro
+    depends_on:
+      - elasticsearch
+      - market-bridge
     networks:
       - test-net
 

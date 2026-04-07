@@ -21,3 +21,21 @@ datasources:
       defaultBucket: marketdata
     secureJsonData:
       token: marketdata-token
+
+  - name: Loki
+    uid: loki
+    type: loki
+    access: proxy
+    url: http://loki:3100
+    editable: true
+
+  - name: Elasticsearch
+    uid: elasticsearch
+    type: elasticsearch
+    access: proxy
+    url: http://elasticsearch:9200
+    editable: true
+    jsonData:
+      index: "*market-bridge-logs*"
+      timeField: "@timestamp"
+      logMessageField: message

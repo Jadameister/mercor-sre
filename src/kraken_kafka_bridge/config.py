@@ -16,6 +16,7 @@ class AppConfig:
     kraken_symbols: list[str]
     kraken_book_depth: int
     log_level: str
+    log_json_path: str | None
     kafka_security_protocol: str | None
     kafka_sasl_mechanism: str | None
     kafka_sasl_username: str | None
@@ -54,6 +55,7 @@ class AppConfig:
             kraken_symbols=symbols,
             kraken_book_depth=int(os.getenv("KRAKEN_BOOK_DEPTH", "10")),
             log_level=os.getenv("LOG_LEVEL", "INFO").upper(),
+            log_json_path=os.getenv("LOG_JSON_PATH") or None,
             kafka_security_protocol=os.getenv("KAFKA_SECURITY_PROTOCOL") or None,
             kafka_sasl_mechanism=os.getenv("KAFKA_SASL_MECHANISM") or None,
             kafka_sasl_username=os.getenv("KAFKA_SASL_USERNAME") or None,

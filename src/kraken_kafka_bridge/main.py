@@ -16,7 +16,12 @@ logger = logging.getLogger(__name__)
 
 async def async_main() -> None:
     config = AppConfig.from_env()
-    configure_logging(config.log_level)
+    configure_logging(config.log_level, config.log_json_path)
+    logger.info(
+        "Application startup log_level=%s json_log_path=%s",
+        config.log_level,
+        config.log_json_path or "disabled",
+    )
 
     producer = KafkaMarketDataProducer(config.kafka_config(), config.kafka_topic)
     influx_writer = InfluxLatencyWriter.from_config(config)

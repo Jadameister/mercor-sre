@@ -10,7 +10,7 @@ A small Python project that connects to the Kraken Spot WebSocket, receives mark
 - Writes market-data latency points to InfluxDB2
 - Automatic reconnect with exponential backoff
 - Environment-based configuration
-- Docker Compose test stack with Grafana, Prometheus, Kafka, node monitoring, and container monitoring
+- Docker Compose test stack with Grafana, Prometheus, Kafka, Loki, Elasticsearch, node monitoring, and container monitoring
 
 ## Project structure
 
@@ -101,7 +101,11 @@ Services:
 - `kafka`: single-broker Kafka for the test topic
 - `influxdb`: InfluxDB2 storing latency points
 - `prometheus`: metrics scraper
-- `grafana`: dashboards with Prometheus and InfluxDB datasources pre-provisioned
+- `grafana`: dashboards with Prometheus, InfluxDB, Loki, and Elasticsearch datasources pre-provisioned
+- `loki`: log storage for Grafana log queries
+- `promtail`: ships structured bridge logs into Loki
+- `elasticsearch`: searchable log storage for Grafana and API queries
+- `filebeat`: ships structured bridge logs into Elasticsearch
 - `node-exporter`: Linux node metrics
 - `cadvisor`: Docker/container metrics
 - `kafka-exporter`: Kafka broker and topic metrics
@@ -136,6 +140,8 @@ Access points:
 - Grafana: `http://localhost:3000` with `admin` / `admin12345`
 - Prometheus: `http://localhost:9090`
 - InfluxDB2: `http://localhost:8086`
+- Loki: `http://localhost:3100`
+- Elasticsearch: `http://localhost:9200`
 - Kafka external listener: `localhost:19092`
 - Kafka UI: `http://localhost:8088`
 - cAdvisor: `http://localhost:8080`
@@ -166,6 +172,12 @@ The Grafana dashboard `Test Stack Overview` is provisioned automatically and inc
 - Docker CPU and memory by service
 - Kafka topic partition and offset-growth views
 - Influx-backed bridge latency views
+
+The Grafana dashboard `Logs Observability` is also provisioned automatically and includes:
+
+- A Loki logs panel for `market-bridge`
+- An Elasticsearch logs panel for `market-bridge`
+- A Loki log-volume panel grouped by log level
 
 You do not need to install Grafana datasources or dashboards manually. They are provisioned automatically from the files under `docker/grafana/`.
 
@@ -240,6 +252,8 @@ python run_local.py
 ```
 
 With `DEBUG` logging enabled, Kafka delivery activity is logged to the terminal.
+
+When the bridge runs in Docker Compose it also writes structured JSON logs to `./.logs/market-bridge.jsonl`. That file is the shared input used by Promtail and Filebeat to test log ingestion into Loki and Elasticsearch.
 
 Note: on Docker Desktop, `node-exporter` and `cadvisor` report on the Linux VM backing Docker rather than native macOS host metrics.
 
